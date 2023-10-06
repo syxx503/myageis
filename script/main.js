@@ -1,0 +1,1 @@
+function e(e,t){return((new Date(e).getTime()-new Date(Date.parse(t)).getTime())/864e5/365).toFixed(9)}var t="26 February 2004 03:23:12";setInterval((function(){document.getElementById("out").innerHTML=e((new Date).toISOString().slice(0,19),t)}),1e3);document.getElementById("out").innerHTML=e((new Date).toISOString().slice(0,19),t);
